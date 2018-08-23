@@ -211,6 +211,10 @@ void setup()
         saveConfiguration(DEFAULT_CONFIG_FILENAME, config);
         return request->send(200, "text/plain", "Configuration updated");
     });
+    /* If the user try to access to an unknown page, we redirect him to the root page */
+    webServer.onNotFound([](AsyncWebServerRequest *request){
+        return request->redirect("/");
+    });
     webServer.begin();
 }
 
