@@ -8,6 +8,7 @@
     ·
     <a href="https://github.com/baptistecdr/PS4-OpenESPHost/new">Request feature</a>
   </p>
+  <img src="https://i.snag.gy/NmokAf.jpg"/>
 </p>
 
 ## Table of contents
