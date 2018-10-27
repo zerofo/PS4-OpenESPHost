@@ -19,10 +19,10 @@ struct Configuration
 const char *DEFAULT_CONFIG_FILENAME = "/settings.json";
 
 /* WEB SERVER CONFIG */
-int DEFAULT_HTTP_PORT = 80;
+ushort DEFAULT_HTTP_PORT = 80;
 
 /* DNS CONFIG */
-int DEFAULT_DNS_PORT = 53;
+ushort DEFAULT_DNS_PORT = 53;
 int DEFAULT_DNS_TTL = 86400; // 24 hours
 
 Configuration config;
@@ -55,8 +55,8 @@ void saveConfiguration(const char *filename, const Configuration &config)
     String backupFilename = String(filename) + ".bak";
     SPIFFS.rename(filename, backupFilename);
     
-    // Open file for writing
-    File file = SPIFFS.open(filename, "w"); // Opens a file for writing only. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.
+    // Opens a file for writing only. Overwrites the file if the file exists. If the file does not exist, creates a new file for writing.
+    File file = SPIFFS.open(filename, "w");
     if (!file)
     {
         Serial.println("Failed to create file");
