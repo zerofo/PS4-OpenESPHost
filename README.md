@@ -44,6 +44,7 @@
 - ValentinBreiz: Linux Loader
 - MiraDevTeam: MiraFW
 - Stooged: DB_Restore
+- Stooged: DiscDump
 
 ## How to build
 
