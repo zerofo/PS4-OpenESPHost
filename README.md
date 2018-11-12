@@ -45,6 +45,7 @@
 - MiraDevTeam: MiraFW
 - Stooged: DB_Restore
 - Stooged: DiscDump
+- SiSTR0: Remote Play Enabler
 
 ## How to build
 
