@@ -215,10 +215,12 @@ void setup()
     webServer.onNotFound([](AsyncWebServerRequest *request){
         return request->redirect("/");
     });
+    // Start WebServer
     webServer.begin();
 }
 
 void loop()
 {
+    // Start processing DNS requests
     dnsServer.processNextRequest();
 }
