@@ -83,5 +83,6 @@ Contributions are welcome!
 - ValentinBreiz
 - LightningMods
 - Zer0xFF
+- SiSTR0
 - [Tinkerman](http://tinkerman.cat/optimizing-files-for-spiffs-with-gulp/)
 - Anonymous
