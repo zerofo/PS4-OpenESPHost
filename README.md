@@ -1,14 +1,13 @@
+<h3 align="center">PS4-OpenESPHost</h3>
 <p align="center">
-  <h3 align="center">PS4-OpenESPHost</h3>
-
-  <p align="center">
-    An open-source firmware for the ESP8266. Execute payload on your PS4 5.05.
-    <br>
-    <a href="https://github.com/baptistecdr/PS4-OpenESPHost/issues/new">Report bug</a>
+  An open-source firmware for the ESP8266. Execute payload on your PS4 5.05.
+  <br>
+  <a href="https://github.com/baptistecdr/PS4-OpenESPHost/issues/new">Report bug</a>
     ·
-    <a href="https://github.com/baptistecdr/PS4-OpenESPHost/new">Request feature</a>
-  </p>
-  <img src="https://i.snag.gy/NmokAf.jpg"/>
+  <a href="https://github.com/baptistecdr/PS4-OpenESPHost/new">Request feature</a>
+</p>
+<p align="center">
+  <img src="https://i.snag.gy/NmokAf.jpg"/ alt="home.jpg">
 </p>
 
 ## Table of contents
